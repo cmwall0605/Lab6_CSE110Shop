@@ -1,2 +1,2 @@
 # Lab6_CSE110Shop
-https://github.com/cmwall0605/Lab6_CSE110Shop/new/main?readme=1
+https://cmwall0605.github.io/Lab6_CSE110Shop/
