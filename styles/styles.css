@@ -40,11 +40,15 @@ nav {
 }
 
 #shop-icon {
-  content: url("/assets/shop-icon.png");
+    /* Added '..' to the beginning of the path, as it does not work in Github 
+     Pages otherwise. */
+  content: url("../assets/shop-icon.png");
 }
 
 #cart-icon {
-  content: url("/assets/cart-icon.png");
+  /* Added '..' to the beginning of the path, as it does not work in Github 
+     Pages otherwise. */
+  content: url("../assets/cart-icon.png");
 }
 
 /* Custom Element CSS starts here */
