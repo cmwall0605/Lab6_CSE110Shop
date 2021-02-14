@@ -127,8 +127,6 @@ class ProductItem extends HTMLElement {
       button.innerText = 'Add to Cart';
 
       myStorage.removeItem(title.innerHTML);
-
-      alert('Removed from Cart!');
     }
 
     this.inCart = !this.inCart;
@@ -200,8 +198,6 @@ class ProductItem extends HTMLElement {
 
     if(myStorage.getItem(title.innerHTML) != null) {
 
-      console.log("found!");
-
       button.innerText = 'Remove from Cart';
 
       this.inCart = true;
@@ -209,8 +205,6 @@ class ProductItem extends HTMLElement {
       return true;
 
     } else {
-
-      console.log("not found!");
 
       button.innerText = 'Add to Cart';
 
